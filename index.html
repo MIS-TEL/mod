@@ -2,7 +2,8 @@
 <html lang="pt-br">
 <head>
     <link rel="stylesheet" href="iSlide-style.css"/>
-    <script src="iSlide-script.js"></script>
+    <!-- <script src="script.js"></script> -->
+    <!-- <script src="iSlide-script.js"></script> -->
     <link rel="apple-touch-icon" sizes="32x32" href="./img/favicon-32x32.png"/>
     <link rel="apple-touch-icon" sizes="16x16" href="./img/favicon-16x16.png"/>
     <link rel="shortcut icon" href="img/favicon.ico" />
@@ -10,10 +11,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Módulo de Redirecionamento  TEL</title>
-    <link rel="stylesheet" href="css/style.css">.
-    <script type="./script.js"></script>
-    <script  src="https://cdnjs.cloudflare.com/ajax/libs/jquery.nicescroll/3.6.8/jquery.nicescroll.min.js"></script>
-    
+    <link rel="stylesheet" href="css/style.css">
+
 
 
 
@@ -21,15 +20,13 @@
 </head>
 <body>
 
-    <nav id="nav" >
+    <nav id="nav">
         <a href="#nav"><img src="img/logo.png" alt="" id="nav_logo"></a>
         <ul class="ul">
-
             <div id="text-navbar">
             <li><a href="#nav" class="anchor"><i class="fi fi-rr-home"></i></li></a>
             <li><a href="#box" class="anchor"><i class="fi fi-rr-briefcase"></i></li></a>
         </div> 
-
         </ul>
 
         
@@ -40,13 +37,13 @@
         <a href="#text-anchor2" id="agibank"><img src="img/logo-agibank.png" alt="" style="width: 20%"></a>
         <a href="#text-anchor3" id="mercadopago"><img src="img/logo-mercado.png" alt="" style="width: 25%"></a>
         <a href="#text-anchor4" id="vivo"><img src="img/logo-vivo.png" alt="" style="width: 30%"></a>
-        <a href="#text-anchor5" id="aliansce"><img src="img/aliansce-logo.png" alt="" style="width: 55%"></a>
+        <a href="#text-anchor5" id="aliansce"><img src="img/aliansce-logo.png" alt="" style="width: 30%"></a>
+        <a href="#text-sera" id="serasa"><img src="img/logo-serasa.png" alt="" style="width: 40%"></a>
 
         <p class="title-ref">Selecione a operação desejada.</p>
     </DIV>
 
     <div id="line">
-        
     </div>
 
 
@@ -205,12 +202,11 @@
                         ></i>
                 </div>
             </a>
-                </div>
+
 
                 
             
-
-            </div>
+ 
         </section>
 
     </div>
@@ -328,15 +324,52 @@
             </div>
         </section>
 
+        <div id="grid_10">
+            <section id="section_2" class="slide"  data-islide-name="menuElement2">
+            <div id="box">
+                    
+                <DIV class="group-box">
+                    <a href="https://app.powerbi.com/view?r=eyJrIjoiZTZhNGVkZTUtMTVlOS00YjIyLTkwYjQtZjc5OTcwYTBlNzUwIiwidCI6ImFlNzExNWVlLTNlMDgtNDc3Zi1iOTYzLTBiNjliZjMzNjBjYyJ9&pageName=ReportSection" target="_blank">
+    
+                    <div class="box20">
+    
+                        <img src="img/logo-serasa.png" alt="" class="icon2" style="height: 20%">
+                        <p class="title">SERASA COB</p>
+                        <div class="barra6"></div>
+                        <p class="desc">Dashboard</p>
+                        
+                            <i class="fi fi-rr-paper-plane"  
+                            style="transform: scale(1.5);
+                            position: absolute;
+                            top: 32vh;
+                            left: 13vh;
+                            color: white;"
+                            ></i>
+                    </div>
+                </a>
+                    </div>
+      
+    
+    
+                    
+                
+     
+            </section>
+    
+        </div>
+
     </div>
-    <div id>
+
+            <div id>
 
         <p id="emoji">&#128075</p><p id="boas-vindas"> Seja bem-vindo(a) ao nosso,</p>
         <p id="description">
-            MÓDULO DE REDIRECIONAMENTO.      
+            PORTAL PLANEJAMENTO MIS      
         </p>
         <p id="description2">
-            Todos os links de nossos projetos se encontram aqui.         
+            Portal composto por relatórios em Excel e PowerBI
+            
+              
         </p>   
 
 
@@ -350,12 +383,15 @@
         <p id="text-mp">MERCADO PAGO</p>
         <p id="text-vivo">VIVO</p>
         <p id="text-ali">ALIANSCE</p>
+        <p id="text-sera">SERASA</p>
 
         <img src="img/backgound2.png" alt="" id="background">
         <img src="img/backgound2.png" alt="" id="background2">
         <img src="img/backgound2.png" alt="" id="background3">
         <img src="img/backgound2.png" alt="" id="background4">
         <img src="img/backgound2.png" alt="" id="background5">
+        <img src="img/backgound2.png" alt="" id="background6">
+        <img src="img/backgound2.png" alt="" id="background7">
 
 
     </div>
@@ -368,4 +404,14 @@
 </html>
 
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script>
+let btn = document.querySelector('#copy');
+btn.addEventListener('click', function(e) {
+  let textArea = document.querySelector('.text');
+  textArea.select();
+  document.execCommand('copy');
+}
+) 
+</script>
+
+
