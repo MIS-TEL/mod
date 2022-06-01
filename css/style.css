@@ -237,7 +237,7 @@ nav li:hover{
     height: 620%;
     left: 0;
     top: 0%;
-    background-image: url("/img/backgound2.png");
+    background-image: url("./img/backgound2.png");
     background-repeat: repeat-y;
     z-index: -2;
     opacity: 0.8;
