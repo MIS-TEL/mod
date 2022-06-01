@@ -6,7 +6,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-	text-decoration: none;
+    text-decoration: none;
     text-decoration-line: none;
     text-decoration-color: none;
 
@@ -100,7 +100,7 @@ nav li{
     position: relative;
     top: 60vh;
     height: 25vh;
-    width: 100vh;
+    width: 130vh;
     background: rgba( 255, 255, 255, 0.03 );
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.05 );
     backdrop-filter: blur( 1px );
@@ -118,7 +118,7 @@ nav li{
 #line{
     position: relative;
     top: 85vh;
-    left: -50vh;
+    left: -65vh;
     width: 4px;
     height: 60px;
     border-radius: 2px;
@@ -137,7 +137,13 @@ nav li{
  #aliansce{
     position: absolute;
     top: 40%;
-    left: 80%;
+    left: 67%;
+    
+}
+ #serasa{
+    position: absolute;
+    top: 35%;
+    left: 83%;
     
 }
 
@@ -145,14 +151,14 @@ nav li{
 #agibank{
     position: absolute;
     top: 31%;
-    left: 25%;
+    left: 23%;
 }
 
 
 #mercadopago{
     position: absolute;
     top: 35%;
-    left: 40%;
+    left: 35%;
     height: 10vh;
 
 }
@@ -160,7 +166,7 @@ nav li{
 #vivo{
     position: absolute;
     top: 33%;
-    left: 60%;
+    left: 50%;
     height: 10vh;
 }
 
@@ -219,7 +225,7 @@ nav li:hover{
     width: 100%;
     height: 100%;
     left: 0;
-    top: 0%;
+    top: 1px;
 
     z-index: -2;
     opacity: 0.8;
@@ -265,7 +271,7 @@ nav li:hover{
     height: 100%;
     max-height: 90vh;
     left: 0;
-    top: 300%;
+    top: 200%;
     margin: -10;
     padding: -50px;
 
@@ -289,6 +295,36 @@ nav li:hover{
 
 
 }
+#background6{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    max-height: 90vh;
+    left: 0;
+    top: 500%;
+    margin: -10;
+    padding: -50px;
+
+    z-index: -2;
+    opacity: 0.8;
+
+
+}
+#background7{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    max-height: 90vh;
+    left: 0;
+    top: 53 0%;
+    margin: -10;
+    padding: -50px;
+
+    z-index: -2;
+    opacity: 0.8;
+
+
+}
 
 #background3{
     position: absolute;
@@ -296,7 +332,7 @@ nav li:hover{
     height: 100%;
     max-height: 90vh;
     left: 0%;
-    top: 200%;
+    top: 300%;
     margin: -10;
     padding: -50px;
 
@@ -395,12 +431,12 @@ nav li:hover{
     text-align: center;
     position: absolute;
     top: 34%;
-    left: 38%;
+    left: 40%;
     transform: translate(0%, -50%);
     z-index: 1;
     color: #fff;
     font-style: italic;
-    font-size: 15px;
+    font-size: 12Px;
     
     
     user-select: none;
@@ -496,6 +532,19 @@ nav li:hover{
 #text-ali{
     position: absolute;
     top: 420%;
+    left: 08%;
+    color: white;
+    font-weight: bold;
+    z-index: +2;
+    animation: size 3s alternate;
+    font-size: 20PX;
+    padding: 15px;
+
+
+}
+#text-sera{
+    position: absolute;
+    top: 505%;
     left: 08%;
     color: white;
     font-weight: bold;
@@ -702,15 +751,54 @@ nav li:hover{
     border-radius: 05px;
     cursor: pointer;
 }
+.box12 {
+    position: absolute;
+    top: -48vh;
+    left: 75vh;
+    grid-area: 2 / 2 / 2 / 1; 
+    background-color: rgb(19, 17, 19, 0.9); ;
+    box-shadow: 3px 3px 3px rgb(19, 17, 19, 0.8);
 
+    width: 30vh;
+    height: 40vh;}
+.box12:hover{
+    border: 3px solid;
+    border-color: #78ca35   ;
+    border-radius: 05px;
+    cursor: pointer;
+}
+.box13 {
+    position: absolute;
+    top: -48vh;
+    left: 75vh;
+    grid-area: 2 / 2 / 2 / 1; 
+    background-color: rgb(19, 17, 19, 0.9); ;
+    box-shadow: 3px 3px 3px rgb(19, 17, 19, 0.8);
 
+    width: 30vh;
+    height: 40vh;}
+.box13:hover{
+    border: 3px solid;
+    border-color: #78ca35   ;
+    border-radius: 05px;
+    cursor: pointer;
+}
+.box20 {
+    position: absolute;
+    top: -50%;
+    left: 0vh;
+    grid-area: 2 / 2 / 2 / 1; 
+    background-color: rgb(19, 17, 19, 0.9); ;
+    box-shadow: 3px 3px 3px rgb(19, 17, 19, 0.8);
 
-
-
-
-
-
-
+    width: 30vh;
+    height: 40vh;}
+.box20:hover{
+    border: 3px solid;
+    border-color: #554AD9   ;
+    border-radius: 05px;
+    cursor: pointer;
+}
 #grid{
     position: absolute;
     top: 125vh;
@@ -718,7 +806,6 @@ nav li:hover{
     text-align: center;
 
 }
-
 
 #grid_2{
     position: absolute;
@@ -742,6 +829,18 @@ nav li:hover{
     position: absolute;
     top: 430VH;
     left: 15vh;
+    text-align: center;
+}
+#grid_6{
+    position: absolute;
+    top: 100VH;
+    left: 15vh;
+    text-align: center;
+}
+#grid_10{
+    position: absolute;
+    top: 80VH;
+    left: 1vh;
     text-align: center;
 }
 
@@ -804,6 +903,15 @@ nav li:hover{
     left: 43%;
     top: 12vh;
     background-color: #006271;
+    width: 5vh;
+    height: 0.4vh;
+
+}
+.barra6{
+    position: relative;
+    left: 43%;
+    top: 12vh;
+    background-color: #554AD9;
     width: 5vh;
     height: 0.4vh;
 
@@ -891,7 +999,7 @@ nav li:hover{
 
 footer{
     position: absolute;
-    top: 430%;
+    top: 520%;
     left: 37%;
     transform: translate(-50%, -50%);
     color: white;
@@ -900,6 +1008,8 @@ footer{
     animation: go-back 1s infinite alternate;
     width: 300px;
     height: 5px;
+    margin: 10vh;
+    padding: 10vh
 
 }
 
@@ -973,5 +1083,7 @@ footer{
     display: flex;
 }
 
-
+.button{
+    z-index: 999;
+}
 
