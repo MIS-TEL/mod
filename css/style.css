@@ -128,6 +128,7 @@ nav li{
 
 }
 
+
  #claro{
     position: absolute;
     top: 35%;
@@ -216,7 +217,16 @@ nav li:hover{
     left: 5%;
     top: 3%;
     animation: zoom 3s alternate;
-    width: 08vh;
+    width: 06vh;
+
+}
+#nav_logo_tel{
+    position: fixed;
+    left: 10%;
+    top: 4%;
+    animation: zoom 3s alternate;
+    width: 10vh;
+
 
 }
 
