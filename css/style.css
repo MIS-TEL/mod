@@ -247,7 +247,7 @@ nav li:hover{
 #background{
     position: absolute;
     width: 100%;
-    height: 770%;
+    height: 850%;
     left: 0;
     top: 0%;
     background-image: url("/img/backgound2.png");
@@ -608,6 +608,19 @@ nav li:hover{
 
 
 }
+#text-outros{
+    position: absolute;
+    top: 750%;
+    left: 08%;
+    color: white;
+    font-weight: bold;
+    z-index: +2;
+    animation: size 3s alternate;
+    font-size: 20PX;
+    padding: 15px;
+
+
+}
 
 #text-anchor1{
     position: absolute;
@@ -771,6 +784,19 @@ nav li:hover{
 .box27:hover{
     border: 3px solid;
     border-color: #0b3d86;
+    border-radius: 05px;
+    cursor: pointer;
+}
+.box28 { 
+    grid-area: 1 / 1 / 2 / 2; 
+    background-color: rgb(19, 17, 19, 0.9); ;
+    box-shadow: 3px 3px 3px rgb(19, 17, 19, 0.8);
+
+    width: 30vh;
+    height: 40vh;}
+.box28:hover{
+    border: 3px solid;
+    border-color: #ffad00;
     border-radius: 05px;
     cursor: pointer;
 }
@@ -966,10 +992,11 @@ nav li:hover{
 }
 #grid_10{
     position: absolute;
-    top: 60VH;
-    left: 1vh;
+    top: 760VH;
+    left: 15vh;
     text-align: center;
 }
+
 
 .title{
     position: relative;
@@ -1061,6 +1088,15 @@ nav li:hover{
     height: 0.4vh;
 
 }
+.barra9{
+    position: relative;
+    left: 43%;
+    top: 12vh;
+    background-color: #ffad00;
+    width: 5vh;
+    height: 0.4vh;
+
+}
 
 .icon{
     position: relative;
@@ -1144,7 +1180,7 @@ nav li:hover{
 
 footer{
     position: absolute;
-    top: 750%;
+    top: 830%;
     left: 45%;
     transform: translate(-50%, -50%);
     color: white;
